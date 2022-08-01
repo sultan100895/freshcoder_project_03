@@ -1,0 +1,101 @@
+/*===============================
+  ===== template css starts =====
+=================================*/
+#template{
+  margin-top: 20px;
+  margin-bottom: 100px;
+  background: #0a2640;
+  padding-bottom: 50px;
+  .heading{
+    h3{
+      color: #fff;
+      font-size: 36px;
+      font-weight: normal;
+      font-family: 'Open Sans', sans-serif;
+      margin-top: 80px;
+      margin-bottom: 50px;
+    }
+  }
+  .templete-slider{
+    .slider-item{
+      margin-left: 10px;
+      margin-right: 10px;
+      background: #fff;
+      padding: 30px;
+      border-radius: 10px;
+      margin-bottom: 80px;
+      .heading{
+        h4{
+          font-size: 20px;
+          line-height: 32px;
+        }
+      }
+      .bottom-details{
+        display: flex;
+        align-items: center;
+        margin-top: 50px;
+        .details{
+          margin-left: 15px;
+          h5{
+            font-size: 16px;
+            font-weight: 700;
+            font-family: 'Open Sans', sans-serif;
+          }
+          p{
+            font-size: 14px;
+            font-weight: 400;
+            font-family: 'Popins', sans-serif;
+            color: #696969;
+          }
+        }
+      }
+    }
+    .left-arrow{
+      transition: all linear 0.4s;
+      height: 60px;
+      width: 60px;
+      line-height: 60px;
+      font-size: 24px;
+      color: #fff;
+      border: 1px solid #fff;
+      border-radius: 50%;
+      text-align: center;
+      cursor: pointer;
+      position: absolute;
+      left: -70px;
+      top: 116px;
+      z-index: 9;
+
+      &:hover{
+        background: #fff;
+        color: #0a2640;
+      }
+    }
+
+    .right-arrow{
+      transition: all linear 0.4s;
+      height: 60px;
+      width: 60px;
+      line-height: 60px;
+      font-size: 24px;
+      color: #fff;
+      border: 1px solid #fff;
+      border-radius: 50%;
+      text-align: center;
+      cursor: pointer;
+      position: absolute;
+      right: -70px;
+      top: 116px;
+      z-index: 9;
+
+      &:hover{
+        background: #fff;
+        color: #0a2640;
+      }
+    }
+  }
+}
+
+/*=============================
+  ===== template css ends =====
+===============================*/

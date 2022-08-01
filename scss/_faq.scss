@@ -1,0 +1,78 @@
+/*==========================
+  ===== faq css starts =====
+============================*/
+#faq{
+  margin-bottom: 120px;
+  .text-area{
+    margin-top: 60px;
+    h1{
+      font-family: 'Open Sans', sans-serif;
+      font-size: 30px;
+      padding-right: 90px;
+    }
+  }
+  .faq-area{
+    margin-top: 50px;
+    .faq{
+      margin-top: 30px;
+      border-bottom: 1px solid #bcbcbc;
+      border-width: 95%;
+      padding: 10px;
+      .question{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        cursor: pointer;
+  
+        h3{
+          font-size: 20px;
+        }
+        i{
+          height: 30px;
+          width: 30px;
+          text-align: center;
+          line-height: 30px;
+          background: #0a2640;
+          border-radius: 50%;
+          color: #fff;
+          font-size: 20px;
+          transition: all linear .4s;
+        }
+      }
+  
+      .answer{
+        max-height: 0;
+        overflow: hidden;
+        transition: all linear .4s;
+        p{
+          font-size: 16px;
+          line-height: 26px;
+          margin-top: 20px;
+          margin-bottom: 0 !important;
+        }
+      }
+    }
+  }
+
+  .faq.active .answer{
+    max-height: 300px;
+    animation: fade 1s linear;
+  }
+  .faq.active i{
+    rotate: 180deg;
+  }
+  .faq.active{
+    border: 1px solid #696969;
+  }
+}
+
+
+
+
+
+
+
+
+/*==========================
+  ===== faq css starts =====
+============================*/
